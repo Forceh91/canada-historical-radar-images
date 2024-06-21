@@ -4,7 +4,7 @@ const fs = require("fs");
 const { JSDOM } = jsdom;
 
 const SITE_CODE = "CASKR"; // Change this to configure the radar site
-const RADAR_URL = `https://climate.weather.gc.ca/radar/index_e.html?site=${SITE_CODE}&duration=2&image_type=DPQPE_RAIN_WEATHEROFFICE`;
+const RADAR_URL = `https://climate.weather.gc.ca/radar/index_e.html?site=${SITE_CODE}&duration=2`;
 const UPDATE_INTERVAL = 3 * 60 * 1000; // 3 minutes
 const dir = "./images";
 
